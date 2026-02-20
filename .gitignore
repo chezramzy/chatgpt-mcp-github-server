@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep sample files versioned)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build / test artifacts
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Runtime / cache
+tmp/
+temp/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
